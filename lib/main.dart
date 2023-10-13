@@ -19,8 +19,8 @@ class MyApp extends StatelessWidget {
         body: Column(
           children: [
             Text("Universitas Teknokrat Indonesia"),
-            Text("data"),
-            Text("data2"),
+            Text("Akbar"),
+            Text("Oktaviadi"),
             Container(
               height: 30,
               width: 500,
@@ -38,6 +38,118 @@ class MyApp extends StatelessWidget {
                 Text("data3"),
                 Text("data4"),
                 Text("data5"),
+                Text("data6"),
+              ],
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Align(
+                  alignment: Alignment.center,
+                ),
+                Container(
+                  width: 30,
+                  height: 30,
+                  color: Color.fromARGB(255, 183, 0, 255),
+                ),
+                SizedBox(
+                  width: 5,
+                ),
+                Container(
+                  width: 30,
+                  height: 30,
+                  color: Color.fromARGB(255, 172, 216, 114),
+                ),
+                SizedBox(
+                  width: 5,
+                ),
+                Container(
+                  width: 30,
+                  height: 30,
+                  color: Color.fromARGB(255, 253, 34, 0),
+                ),
+                SizedBox(
+                  width: 5,
+                ),
+                Container(
+                  width: 30,
+                  height: 30,
+                  color: Color.fromARGB(255, 21, 66, 212),
+                ),
+                SizedBox(
+                  width: 5,
+                ),
+                Container(
+                  width: 30,
+                  height: 30,
+                  color: Color.fromARGB(255, 242, 255, 0),
+                ),
+              ],
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Align(
+                  alignment: Alignment.center,
+                ),
+                Container(
+                  width: 30,
+                  height: 30,
+                  decoration: BoxDecoration(
+                    color: Colors.amber,
+                    shape: BoxShape.circle,
+                  ),
+                ),
+                SizedBox(
+                  width: 5,
+                ),
+                Container(
+                  width: 30,
+                  height: 30,
+                  decoration: BoxDecoration(
+                    color: Color.fromARGB(255, 172, 216, 114),
+                    shape: BoxShape.circle,
+                  ),
+                ),
+                SizedBox(
+                  width: 5,
+                ),
+                Container(
+                  width: 30,
+                  height: 30,
+                  decoration: BoxDecoration(
+                    color: Color.fromARGB(255, 238, 79, 0),
+                    shape: BoxShape.circle,
+                  ),
+                ),
+                SizedBox(
+                  width: 5,
+                ),
+                Container(
+                  width: 30,
+                  height: 30,
+                  decoration: BoxDecoration(
+                    color: Color.fromARGB(255, 27, 236, 255),
+                    shape: BoxShape.circle,
+                  ),
+                ),
+                SizedBox(
+                  width: 5,
+                ),
+                Container(
+                  width: 30,
+                  height: 30,
+                  decoration: BoxDecoration(
+                    color: Color.fromARGB(255, 107, 243, 80),
+                    shape: BoxShape.circle,
+                  ),
+                ),
               ],
             ),
           ],
